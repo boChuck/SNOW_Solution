@@ -9,6 +9,7 @@ namespace SNOW_Solution
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            System.Console.Write("log");
         }
     }
 }
